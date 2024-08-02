@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
+    <style>
+        body {
+            margin-left: 15%;            
+            margin-right: 15%;
+        }
+        .container {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+            
+        }
+        #header {
+            font-family: Poppins;
+            font-style: normal;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 42px;
+            text-decoration-line: underline;
+            color: #070f18;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        #menu {
+            text-align: right;
+            margin-top: 49px;
+        }
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            }
+            #menu li {
+                display: inline-block;
+                margin-left: 20px;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            #buttonCta {
+                background: rgba(31, 124, 255, 1);
+                border-radius: 50px;
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 24px;
+                text-align: center;
+                color: rgba(255, 255, 255, 1);
+                padding: 10px 25px 10px 25px;
+            }
+            #headerCta p {
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 32px;
+                color: #575455;
+            }
+            #headerCta h1 {
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 45px;
+                font-weight: bold;
+                color: #000000;
+            }
+            #headerImg {
+                margin-left: 42px; 
+                }
+            #headerImg img {
+                width: 100%;
+            }
+            .headerLogo {
+                text-align: center;
+            }
+            #clients {
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            #headerClientText {
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                color: #070f18
+            }
+            h2.red {
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: center;
+                color: #f75c4e;
+            }
+            h1.black {
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 54px;
+                text-align: center;
+                color: #000000;
+                margin-top: 0;
+            }
+            .textCenter {
+                text-align: center;
+            }
+            #services .container h3 {
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                text-align: left;
+
+            }
+            #services .textCenter p {
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 32px;
+                color: #575455;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            Portfólio
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Meus Serviços</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Portfólio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h1>Olá, meu nome <br>
+                é Maria</h1>
+                <p>Sou programadora e gostaria de apresentar meu <br>
+                    trabalho para você através deste portfólio.</p>
+                    <a id="buttonCta" href="">Meus Serviços</a>
+        </div>
+        <div id="headerImg">
+            <img src="img/header.svg" alt="">
+        </div>
+    </div>
+    <div class="container" id="clients">
+        <div id="headerClientText">
+            Alguns dos <br>
+            meus clientes   
+        </div>     
+        <div class="headerLogo">
+            <img src="img/apple.svg" alt="">
+        </div>
+        <div class="headerLogo">
+            <img src="img/slack.svg" alt="">
+        </div>
+        <div class="headerLogo">
+            <img src="img/spotify.svg" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div id="services">
+            <h2 class="red">Conheça</h2>
+            <h1 class="black">Meus Serviços</h1>
+        </div>        
+    </div>
+    <div class="container" id="services">
+        <div class="textCenter">
+            <img src="icons/icon1.svg" alt="">
+            <h3>Consultoria</h3>
+            <p>Te ajudo a organizar sua empresa <br>
+                e melhorar seus resultados.</p>
+        </div>
+        <div class="textCenter">
+            <img src="icons/icon2.svg" alt="">
+            <h3>Email Marketing</h3>
+            <p>Gerenciar campanhas é difícil. <br>
+                Conte comigo para te ajudar.</p>
+        </div>
+        <div class="textCenter">
+            <img src="icons/icon3.svg" alt="">
+            <h3>Criação de Sites</h3>
+            <p>Desenvolvo seu site inteiro <br>
+                do zero e te entrego prontinho.</p>
+        </div>
+    </div>
+
+</body>
+</html>
