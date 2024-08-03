@@ -133,6 +133,53 @@
                 line-height: 32px;
                 color: #575455;
             }
+            #contactImg img {
+                width: 100%;
+            }
+            #contactForm {
+                margin-left: 75px;
+                text-align: left;
+            }
+            #contact {
+                margin-top: 100px;
+            }
+            .textRight {
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 32px;
+                color: #575455;
+            }
+            #contactForm input {
+                background: #f5f6fb;
+                border-radius: 50px;
+                font-family: Poppins;
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 24px;
+                color: #575455;
+                border: 0;
+                width: 70%;
+                padding: 15px 30px 15px 30px;
+            }
+            #contactForm button {
+                background: #1F7CFF;
+                border-radius: 50px; 
+                padding: 15px 30px 15px 30px;
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+                border: 0;
+
+            }
+
     </style>
 </head>
 <body>
@@ -199,6 +246,22 @@
             <h3>Criação de Sites</h3>
             <p>Desenvolvo seu site inteiro <br>
                 do zero e te entrego prontinho.</p>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <div id="contactImg">
+            <img src="img/contact.svg" alt="">
+        </div>
+        <div id="contactForm">
+            <h2 class="red">Economize seu tempo</h2>
+            <h1 class="black">Ganhe mais dinheiro</h1>
+            <p class="textRight">Digite aqui seu endereço de e-mail. Eu entrarei em <br>
+                contato para fornecer um diagnóstico gratuito.</p>
+                <form action="https://formspree.io/f/xldrbabr" method="post">
+                    <p><input placeholder="Seu e-mail" type="text" id="emailInput" name="contactEmail" required="required">
+                    </p>
+                    <button type="submit">Enviar</button>
+                </form>
         </div>
     </div>
 
